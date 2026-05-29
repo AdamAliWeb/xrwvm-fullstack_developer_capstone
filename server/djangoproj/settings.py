@@ -32,11 +32,13 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     ("https://adamstargame-8000.theiadockernext-0-labs-"
-    "prod-theiak8s-4-tor01.proxy.cognitiveclass.ai")
+    "prod-theiak8s-4-tor01.proxy.cognitiveclass.ai"
+    )
 ]
 CSRF_TRUSTED_ORIGINS = [
     ("https://adamstargame-8000.theiadockernext-0-labs-"
-    "prod-theiak8s-4-tor01.proxy.cognitiveclass.ai")
+    "prod-theiak8s-4-tor01.proxy.cognitiveclass.ai"
+    )
 ]
 
 REST_FRAMEWORK = {
@@ -103,7 +105,8 @@ AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME':
         ('django.contrib.auth.password_validation.'
-        'UserAttributeSimilarityValidator'),
+        'UserAttributeSimilarityValidator'
+        ),
     },
     {
         'NAME':
