@@ -1,4 +1,4 @@
-# pylint: skip-file
+# pylint: disable-all
 """
 Django settings for djangoproj project.
 
@@ -30,7 +30,7 @@ SECRET_KEY =\
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "localhost", 
+    "localhost",
     "https://adamstargame-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai"
 ]
 CSRF_TRUSTED_ORIGINS = [
